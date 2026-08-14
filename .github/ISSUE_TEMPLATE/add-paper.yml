@@ -1,0 +1,80 @@
+name: Add a paper or project
+description: Propose a new vision-based, action-conditioned world model resource
+title: "[Add]: "
+labels: []
+body:
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options:
+        - Game world models
+        - Embodied simulation
+        - Latent visual world models and control
+        - Benchmark
+        - Dataset
+        - Survey or perspective
+    validations:
+      required: true
+  - type: dropdown
+    id: representation
+    attributes:
+      label: Representation
+      options:
+        - Video
+        - Token
+        - Latent
+        - Feature
+        - 3D/4D
+        - Unified
+    validations:
+      required: true
+  - type: checkboxes
+    id: uses
+    attributes:
+      label: Demonstrated uses
+      description: Select every use demonstrated by the paper; these are not mutually exclusive.
+      options:
+        - label: Evaluation or verification
+        - label: Imitation learning
+        - label: Reinforcement learning or reinforcement fine-tuning
+        - label: Planning or visual foresight
+        - label: Policy learning or improvement
+        - label: Synthetic data or replay
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: Full paper or project title
+    validations:
+      required: true
+  - type: input
+    id: paper
+    attributes:
+      label: Paper or technical report
+      placeholder: https://arxiv.org/abs/xxxx.xxxxx
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Official links
+      description: Project page, code, model, and dataset links, one per line.
+  - type: textarea
+    id: fit
+    attributes:
+      label: Why it fits
+      description: State the action input, predicted representation, and downstream uses.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I checked that this item is not already listed.
+          required: true
+        - label: I verified the metadata and used official links.
+          required: true
+        - label: The transition model is conditioned on explicit or learned actions.
+          required: true
