@@ -50,6 +50,7 @@ The list includes models that generate future pixels/video as well as models tha
 - [Benchmarks](#benchmarks)
 - [Datasets](#datasets)
 - [Related lists](#related-lists)
+- [Maintenance guide](MAINTENANCE.md)
 
 ## Scope
 
