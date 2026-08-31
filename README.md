@@ -143,6 +143,7 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 
 | Date | Work | Rep. | Uses | Links |
 | --- | --- | --- | --- | --- |
+| 2026.08 | **WALL-SS** — Action-conditioned world model for embodied simulation | `Video` | `Eval` `IL` `RL` `Plan` `Policy` | [Project](https://github.com/X-Square-Robot/wall-ss) |
 | 2026.07 | **CheckVLA** — Execution-Time Verification with Action-Conditioned World Model for Long-Horizon Mobile Manipulation | `Latent` | `Eval` `Plan` | [Paper](https://arxiv.org/abs/2607.26789) |
 | 2026.06 | **Recurrent Generative Replay** — World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays | `Video` | `IL` `Data` | [Paper](https://arxiv.org/abs/2606.27374) |
 | 2026.06 | **WAM-RL** — World-Action Model Reinforcement Learning with Reconstruction Rewards and Online Video SFT | `Video` | `RL` `Policy` | [Paper](https://arxiv.org/abs/2606.17906) |
@@ -220,6 +221,7 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 
 | Date | Benchmark | Domain | Links |
 | --- | --- | --- | --- |
+| 2026.08 | **WorldSimProbe** — Action-following evaluation for action-conditioned world models | Action-conditioned world models | [Project](https://github.com/pxxq25/WorldSimProbe) |
 | 2026.06 | **WorldRoamBench** — Long-horizon stability of interactive world models | Interactive | [Paper](https://arxiv.org/abs/2606.31672) |
 | 2026.06 | **RoboTrustBench** — Trustworthiness of video world models for robotic manipulation | Embodied | [Paper](https://arxiv.org/abs/2606.01600) · [Project](https://huiqiongli.github.io/RoboTrustBench/) |
 | 2026.05 | **MiraBench** — Action-conditioned reliability in robotic world models | Embodied | [Paper](https://arxiv.org/abs/2605.29360) |
