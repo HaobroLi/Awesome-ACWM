@@ -143,6 +143,7 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 
 | Date | Work | Rep. | Uses | Links |
 | --- | --- | --- | --- | --- |
+| 2026.08 | **Hydra-0** — Action Flow for Generalist World Modeling and Control | `Video` | `Eval` `IL` `Plan` `Policy` `Data` | [Paper](https://arxiv.org/abs/2608.18077) · [Project](https://nvidia-isaac.github.io/video_to_data/hydra-0/) |
 | 2026.08 | **WALL-SS** — Action-conditioned world model for embodied simulation | `Video` | `Eval` `IL` `RL` `Plan` `Policy` | [Project](https://github.com/X-Square-Robot/wall-ss) |
 | 2026.07 | **CheckVLA** — Execution-Time Verification with Action-Conditioned World Model for Long-Horizon Mobile Manipulation | `Latent` | `Eval` `Plan` | [Paper](https://arxiv.org/abs/2607.26789) |
 | 2026.06 | **Recurrent Generative Replay** — World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays | `Video` | `IL` `Data` | [Paper](https://arxiv.org/abs/2606.27374) |
