@@ -143,6 +143,7 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 
 | Date | Work | Rep. | Uses | Links |
 | --- | --- | --- | --- | --- |
+| 2026.10 | **SimForcing** — Distilling Simulation Motion Priors into Real-Domain Robot World Models | `Video` | `Eval` `Data` | [Paper](https://arxiv.org/abs/2610.06598) · [Project](https://wang-xiaodong1899.github.io/SimForcing/) |
 | 2026.09 | **Pelican-Sim 1.0** — A General World Model Simulator for Embodied Intelligence | `Video` | `Eval` `IL` `Plan` `Policy` `Data` | [Paper](https://arxiv.org/abs/2609.12036) · [Project](https://zoushilong1024.github.io/Pelican-Sim1.0/) |
 | 2026.08 | **Hydra-0** — Action Flow for Generalist World Modeling and Control | `Video` | `Eval` `IL` `Plan` `Policy` `Data` | [Paper](https://arxiv.org/abs/2608.18077) · [Project](https://nvidia-isaac.github.io/video_to_data/hydra-0/) |
 | 2026.08 | **WALL-SS** — Action-conditioned world model for embodied simulation | `Video` | `Eval` `IL` `RL` `Plan` `Policy` | [Project](https://github.com/X-Square-Robot/wall-ss) |
