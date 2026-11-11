@@ -143,7 +143,11 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 
 | Date | Work | Rep. | Uses | Links |
 | --- | --- | --- | --- | --- |
+| 2026.10 | **WAVE-0** — Bridging VLA Policies and WAMs with Lightweight Latent Future Prediction | `Feature` | `IL` `Policy` | [Paper](https://arxiv.org/abs/2610.18568) · [Code](https://github.com/AutoLab-SAI-SJTU/WAVE-0) · [Project](https://hmwang2002.github.io/release/wave0/) |
+| 2026.10 | **LeWAM (Fu et al.)** — End-to-End World and Action Modeling with JEPAs | `Latent` `Unified` | `IL` `Plan` `Policy` | [Paper](https://arxiv.org/abs/2610.12818) · [Project](https://le-wam.github.io/) |
 | 2026.10 | **SimForcing** — Distilling Simulation Motion Priors into Real-Domain Robot World Models | `Video` | `Eval` `Data` | [Paper](https://arxiv.org/abs/2610.06598) · [Project](https://wang-xiaodong1899.github.io/SimForcing/) |
+| 2026.09 | **LeWAM (Fang et al.)** — Latent evolving World Action Model | `Feature` `Unified` | `IL` `Policy` | [Paper](https://arxiv.org/abs/2609.27455) · [Code](https://github.com/XuejiFang/LeWAM) |
+| 2026.09 | **JEPA Policy** — Diffusion-Free Imitation Learning via Paired Action and Future Representation Prediction | `Latent` `Unified` | `IL` `Eval` `Policy` | [Paper](https://arxiv.org/abs/2609.09630) |
 | 2026.09 | **Pelican-Sim 1.0** — A General World Model Simulator for Embodied Intelligence | `Video` | `Eval` `IL` `Plan` `Policy` `Data` | [Paper](https://arxiv.org/abs/2609.12036) · [Project](https://zoushilong1024.github.io/Pelican-Sim1.0/) |
 | 2026.08 | **Hydra-0** — Action Flow for Generalist World Modeling and Control | `Video` | `Eval` `IL` `Plan` `Policy` `Data` | [Paper](https://arxiv.org/abs/2608.18077) · [Project](https://nvidia-isaac.github.io/video_to_data/hydra-0/) |
 | 2026.08 | **WALL-SS** — Action-conditioned world model for embodied simulation | `Video` | `Eval` `IL` `RL` `Plan` `Policy` | [Project](https://github.com/X-Square-Robot/wall-ss) |
@@ -200,16 +204,37 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 
 | Date | Work | Rep. | Uses | Links |
 | --- | --- | --- | --- | --- |
+| 2026.10 | **RoboJEPA** — Scaling Robotic Latent World Models | `Feature` | Goal-conditioned planning | [Paper](https://arxiv.org/abs/2610.10515) · [Code](https://github.com/facebookresearch/robo_jepa) |
+| 2026.09 | **A-JEPA** — I Act Therefore I Am: When Is JEPA's Action-Conditioning Enough to Learn Causal Mechanisms? | `Latent` | Visual state recovery and transfer | [Paper](https://arxiv.org/abs/2609.31161) |
+| 2026.09 | **Toward Physically Grounded JEPA World Models for Goal-Conditioned Robotic Planning** | `Latent` | Goal-conditioned planning | [Paper](https://arxiv.org/abs/2609.03565) |
+| 2026.08 | **Flow-JEPA** — Robust Latent Dynamics for JEPA World Models via Flow Matching | `Latent` | Goal-conditioned planning | [Paper](https://arxiv.org/abs/2608.29029) |
+| 2026.08 | **LpWM** — A Case for Sparse Representations in World Models | `Latent` | Goal-conditioned planning | [Paper](https://arxiv.org/abs/2608.22764) · [Code](https://github.com/YilunKuang/lpworldmodel) |
+| 2026.08 | **PSG-JEPA** — Is Forward Prediction Enough? Physical State Grounding for JEPA World Models | `Latent` | Physical-state grounding, planning, and policy learning | [Paper](https://arxiv.org/abs/2608.06799) · [Code](https://github.com/Haodong-Yan/PSG-JEPA) |
+| 2026.06 | **AdaJEPA** — An Adaptive Latent World Model | `Latent` | Goal-conditioned planning | [Paper](https://arxiv.org/abs/2606.32026) · [Code](https://github.com/agentic-learning-ai-lab/adajepa) |
+| 2026.06 | **Delta-JEPA** — Learning Action-Sensitive World Models via Latent Difference Decoding | `Latent` | Goal-conditioned planning | [Paper](https://arxiv.org/abs/2606.31232) |
+| 2026.06 | **Fast-LeWM** — Fast LeWorldModel | `Latent` | Goal-conditioned planning | [Paper](https://arxiv.org/abs/2606.26217) |
+| 2026.06 | **Beyond the Next Step: Variable-Length Latent World Models for Long-Horizon Planning** | `Latent` | Goal-conditioned planning | [Paper](https://arxiv.org/abs/2606.21775) |
+| 2026.06 | **SMWM** — Sensorimotor World Models: Perception for Action via Inverse Dynamics | `Latent` | Goal-conditioned planning | [Paper](https://arxiv.org/abs/2606.20104) |
+| 2026.03 | **LeWorldModel** — Stable End-to-End Joint-Embedding Predictive Architecture from Pixels | `Latent` | Goal-conditioned planning | [Paper](https://arxiv.org/abs/2603.19312) · [Code](https://github.com/aspamers/lewm) |
+| 2026.03 | **R2-Dreamer** — Redundancy-Reduced World Models without Decoders or Augmentation | `Latent` | Visual RL | [Paper](https://arxiv.org/abs/2603.18202) |
+| 2026.03 | **V-JEPA 2.1** — Unlocking Dense Features in Video Self-Supervised Learning | `Feature` | Action-conditioned robot planning | [Paper](https://arxiv.org/abs/2603.14482) |
+| 2026.01 | **Learning Latent Action World Models In The Wild** | `Latent` | Latent-action transfer and planning | [Paper](https://arxiv.org/abs/2601.05230) |
+| 2025.09 | **Dreamer 4** — Training Agents Inside of Scalable World Models | `Latent` | Visual RL | [Paper](https://arxiv.org/abs/2509.24527) |
+| 2025.07 | **Back to the Features: DINO as a Foundation for Video World Models** | `Feature` | Goal-conditioned planning | [Paper](https://arxiv.org/abs/2507.19468) |
 | 2025.06 | **V-JEPA 2 / V-JEPA 2-AC** — Self-Supervised Video Models Enable Understanding, Prediction and Planning | `Feature` | Action-conditioned planning | [Paper](https://arxiv.org/abs/2506.09985) · [Project](https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/) · [Code](https://github.com/facebookresearch/vjepa2) |
 | 2024.11 | **DINO-WM** — World Models on Pre-trained Visual Features enable Zero-shot Planning | `Feature` | Zero-shot planning | [Paper](https://arxiv.org/abs/2411.04983) · [Project](https://dino-wm.github.io/) · [Code](https://github.com/gaoyuezhou/dino_wm) |
 | 2024.10 | **AVID** — Adapting Video Diffusion Models to World Models | `Video` | Action-conditioned diffusion | [Paper](https://arxiv.org/abs/2410.12822) · [Code](https://github.com/microsoft/causica/tree/main/research_experiments/avid) |
+| 2024.06 | **LAW** — Enhancing End-to-End Autonomous Driving with Latent World Model | `Latent` | Waypoint-conditioned future-feature supervision for driving | [Paper](https://arxiv.org/abs/2406.08481) · [Code](https://github.com/BraveGroup/LAW) |
 | 2024.06 | **Delta-IRIS** — Efficient World Models with Context-Aware Tokenization | `Token` | Visual RL | [Paper](https://arxiv.org/abs/2406.19320) · [Code](https://github.com/vmicheli/delta-iris) |
+| 2023.10 | **STORM** — Efficient Stochastic Transformer based World Models for Reinforcement Learning | `Latent` | Visual RL | [Paper](https://arxiv.org/abs/2310.09615) |
 | 2023.10 | **TD-MPC2** — Scalable, Robust World Models for Continuous Control | `Latent` | Continuous control | [Paper](https://arxiv.org/abs/2310.16828) · [Code](https://github.com/nicklashansen/tdmpc2) |
 | 2023.01 | **DreamerV3** — Mastering Diverse Domains through World Models | `Latent` | General RL | [Paper](https://arxiv.org/abs/2301.04104) · [Code](https://github.com/danijar/dreamerv3) |
 | 2022.09 | **IRIS** — Transformers are Sample-Efficient World Models | `Token` | Atari control | [Paper](https://arxiv.org/abs/2209.00588) · [Code](https://github.com/eloialonso/iris) |
 | 2022.06 | **MWM** — Masked World Models for Visual Control | `Latent` | Visual RL | [Paper](https://arxiv.org/abs/2206.14244) · [Code](https://github.com/younggyoseo/MWM) |
 | 2022.06 | **DayDreamer** — World Models for Physical Robot Learning | `Latent` | Real-robot RL | [Paper](https://arxiv.org/abs/2206.14176) · [Code](https://github.com/danijar/daydreamer) |
+| 2022.03 | **DreamingV2** — Reinforcement Learning with Discrete World Models without Reconstruction | `Latent` | Visual RL | [Paper](https://arxiv.org/abs/2203.00494) |
 | 2022.03 | **TD-MPC** — Temporal Difference Learning for Model Predictive Control | `Latent` | MPC and control | [Paper](https://arxiv.org/abs/2203.04955) · [Code](https://github.com/nicklashansen/tdmpc) |
+| 2022.02 | **TransDreamer** — Reinforcement Learning with Transformer World Models | `Latent` | Visual RL | [Paper](https://arxiv.org/abs/2202.09481) |
 | 2020.10 | **DreamerV2** — Mastering Atari with Discrete World Models | `Latent` | Atari control | [Paper](https://arxiv.org/abs/2010.02193) · [Code](https://github.com/danijar/dreamerv2) |
 | 2019.12 | **Dreamer** — Dream to Control: Learning Behaviors by Latent Imagination | `Latent` | Continuous control | [Paper](https://arxiv.org/abs/1912.01603) · [Code](https://github.com/danijar/dreamer) |
 | 2019.11 | **MuZero** — Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model | `Latent` | Tree-search planning | [Paper](https://arxiv.org/abs/1911.08265) |
