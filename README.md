@@ -46,6 +46,7 @@ The list includes models that generate future pixels/video as well as models tha
 - [Surveys and perspectives](#surveys-and-perspectives)
 - [Game world models](#game-world-models)
 - [Embodied simulation](#embodied-simulation)
+  - [Related reconstruction-based driving simulators](#related-reconstruction-based-driving-simulators)
 - [Latent visual world models and control](#latent-visual-world-models-and-control)
 - [Benchmarks](#benchmarks)
 - [Datasets](#datasets)
@@ -143,12 +144,14 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 
 | Date | Work | Rep. | Uses | Links |
 | --- | --- | --- | --- | --- |
+| 2026.10 | **WoVR+** — World Model as Reliable Simulator for Versatile VLA Policy Optimization with RL | `Video` | `RL` | [Paper](https://arxiv.org/abs/2610.17922) |
 | 2026.10 | **SimForcing** — Distilling Simulation Motion Priors into Real-Domain Robot World Models | `Video` | `Eval` `Data` | [Paper](https://arxiv.org/abs/2610.06598) · [Project](https://wang-xiaodong1899.github.io/SimForcing/) |
 | 2026.09 | **Pelican-Sim 1.0** — A General World Model Simulator for Embodied Intelligence | `Video` | `Eval` `IL` `Plan` `Policy` `Data` | [Paper](https://arxiv.org/abs/2609.12036) · [Project](https://zoushilong1024.github.io/Pelican-Sim1.0/) |
 | 2026.08 | **Hydra-0** — Action Flow for Generalist World Modeling and Control | `Video` | `Eval` `IL` `Plan` `Policy` `Data` | [Paper](https://arxiv.org/abs/2608.18077) · [Project](https://nvidia-isaac.github.io/video_to_data/hydra-0/) |
 | 2026.08 | **WALL-SS** — Action-conditioned world model for embodied simulation | `Video` | `Eval` `IL` `RL` `Plan` `Policy` | [Project](https://github.com/X-Square-Robot/wall-ss) |
 | 2026.07 | **CheckVLA** — Execution-Time Verification with Action-Conditioned World Model for Long-Horizon Mobile Manipulation | `Latent` | `Eval` `Plan` | [Paper](https://arxiv.org/abs/2607.26789) |
 | 2026.06 | **Recurrent Generative Replay** — World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays | `Video` | `IL` `Data` | [Paper](https://arxiv.org/abs/2606.27374) |
+| 2026.06 | **World Engine** — Towards the Era of Post-Training for Autonomous Driving | `3D/4D` | `RL` `Data` | [Paper](https://arxiv.org/abs/2606.19836) · [Project](https://opendrivelab.com/WorldEngine/) · [Code](https://github.com/OpenDriveLab/WorldEngine) |
 | 2026.06 | **WAM-RL** — World-Action Model Reinforcement Learning with Reconstruction Rewards and Online Video SFT | `Video` | `RL` `Policy` | [Paper](https://arxiv.org/abs/2606.17906) |
 | 2026.06 | **PiL-World** — A Chunk-Wise World Model for VLA Policy-in-the-Loop Evaluation | `Video` | `Eval` | [Paper](https://arxiv.org/abs/2606.05773) |
 | 2026.05 | **GE-Sim 2.0** — A Roadmap Towards Comprehensive Closed-loop Video World Simulators for Robotic Manipulation | `Video` | `Eval` `IL` `RL` `Data` | [Paper](https://arxiv.org/abs/2605.27491) · [Project](https://ge-sim-v2.github.io/) |
@@ -184,7 +187,7 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 | 2025.05 | **WorldEval** — World Model as Real-World Robot Policies Evaluator | `Video` | `Eval` | [Paper](https://arxiv.org/abs/2505.19017) · [Project](https://worldeval.github.io/) |
 | 2025.05 | **DreamGen** — Unlocking Generalization in Robot Learning through Video World Models | `Video` | `IL` `Data` | [Paper](https://arxiv.org/abs/2505.12705) · [Code](https://github.com/NVIDIA/GR00T-Dreams) |
 | 2025.04 | **TesserAct** — Learning 4D Embodied World Models | `3D/4D` | `Plan` `Policy` | [Paper](https://arxiv.org/abs/2504.20995) · [Project](https://tesseractworld.github.io/) |
-| 2025.04 | **PIN-WM** — Learning Physics-INformed World Models for Non-Prehensile Manipulation | `3D/4D` | `Plan` | [Paper](https://arxiv.org/abs/2504.16693) |
+| 2025.04 | **PIN-WM** — Learning Physics-INformed World Models for Non-Prehensile Manipulation | `3D/4D` | `RL` `Plan` | [Paper](https://arxiv.org/abs/2504.16693) |
 | 2025.04 | **UWM** — Unified World Models: Coupling Video and Action Diffusion for Pretraining on Large Robotic Datasets | `Video` `Unified` | `IL` `Policy` `Data` | [Paper](https://arxiv.org/abs/2504.02792) · [Project](https://weirdlabuw.github.io/uwm/) |
 | 2024.12 | **Dream to Manipulate** — Compositional World Models Empowering Robot Imitation Learning with Imagination | `Video` | `IL` `Plan` `Data` | [Paper](https://arxiv.org/abs/2412.14957) · [Project](https://leobarcellona.github.io/DreamToManipulate/) |
 | 2024.10 | **EVA** — An Embodied World Model for Future Video Anticipation | `Video` | `Plan` `Policy` | [Paper](https://arxiv.org/abs/2410.15461) · [Project](https://sites.google.com/view/eva-publi) |
@@ -193,6 +196,15 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 | 2024.03 | **3D-VLA** — A 3D Vision-Language-Action Generative World Model | `3D/4D` | `Plan` `Policy` | [Paper](https://arxiv.org/abs/2403.09631) |
 | 2024.03 | **ManiGaussian** — Dynamic Gaussian Splatting for Multi-task Robotic Manipulation | `3D/4D` | `Plan` `Policy` | [Paper](https://arxiv.org/abs/2403.08321) · [Project](https://guanxinglu.github.io/ManiGaussian/) |
 | 2023.10 | **UniSim** — Learning Interactive Real-World Simulators | `Video` | `IL` `RL` `Plan` `Policy` `Data` | [Paper](https://arxiv.org/abs/2310.06114) · [Project](https://universal-simulator.github.io/) |
+
+### Related Reconstruction-Based Driving Simulators
+
+These related systems support closed-loop policy training through reconstructed environments. Their learned rendering or diffusion-assisted reconstruction does not by itself establish a learned action-conditioned transition model. They are listed separately from the ACWMs above. Dates below refer to initial arXiv releases.
+
+| Date | Work | Rep. | Uses | Links |
+| --- | --- | --- | --- | --- |
+| 2025.08 | **ReconDreamer-RL** — Enhancing Reinforcement Learning via Diffusion-based Scene Reconstruction | `3D/4D` | `Eval` `RL` | [Paper](https://arxiv.org/abs/2508.08170) |
+| 2025.02 | **RAD** — Training an End-to-End Driving Policy via Large-Scale 3DGS-based Reinforcement Learning | `3D/4D` | `RL` | [Paper](https://arxiv.org/abs/2502.13144) |
 
 ## Latent Visual World Models and Control
 
