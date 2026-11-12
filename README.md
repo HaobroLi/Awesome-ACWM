@@ -179,6 +179,7 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 | 2025.08 | **Genie Envisioner** — A Unified World Foundation Platform for Robotic Manipulation | `Video` | `Eval` `IL` `Plan` `Policy` | [Paper](https://arxiv.org/abs/2508.05635) · [Project](https://genie-envisioner.github.io/) |
 | 2025.06 | **ParticleFormer** — A 3D Point Cloud World Model for Multi-Object, Multi-Material Robotic Manipulation | `3D/4D` | `Plan` | [Paper](https://arxiv.org/abs/2506.23126) · [Project](https://particleformer.github.io/) |
 | 2025.06 | **WorldVLA** — Towards Autoregressive Action World Model | `Video` | `Policy` `Plan` | [Paper](https://arxiv.org/abs/2506.21539) · [Code](https://github.com/alibaba-damo-academy/WorldVLA) |
+| 2025.06 | **ReSim** — Reliable World Simulation for Autonomous Driving | `Video` | `Eval` `Plan` | [Paper](https://arxiv.org/abs/2506.09981) · [Project](https://opendrivelab.com/ReSim) |
 | 2025.05 | **LaDi-WM** — A Latent Diffusion-based World Model for Predictive Manipulation | `Latent` | `Plan` `Policy` | [Paper](https://arxiv.org/abs/2505.11528) |
 | 2025.05 | **FLARE** — Robot Learning with Implicit World Modeling | `Latent` | `Policy` `Data` | [Paper](https://arxiv.org/abs/2505.15659) · [Project](https://research.nvidia.com/labs/gear/flare) · [Code](https://github.com/NVIDIA/Isaac-GR00T) |
 | 2025.05 | **WorldEval** — World Model as Real-World Robot Policies Evaluator | `Video` | `Eval` | [Paper](https://arxiv.org/abs/2505.19017) · [Project](https://worldeval.github.io/) |
@@ -192,6 +193,7 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 | 2024.04 | **RoboDreamer** — Learning Compositional World Models for Robot Imagination | `Video` | `Plan` `Policy` | [Paper](https://arxiv.org/abs/2404.12377) · [Project](https://robovideo.github.io/) |
 | 2024.03 | **3D-VLA** — A 3D Vision-Language-Action Generative World Model | `3D/4D` | `Plan` `Policy` | [Paper](https://arxiv.org/abs/2403.09631) |
 | 2024.03 | **ManiGaussian** — Dynamic Gaussian Splatting for Multi-task Robotic Manipulation | `3D/4D` | `Plan` `Policy` | [Paper](https://arxiv.org/abs/2403.08321) · [Project](https://guanxinglu.github.io/ManiGaussian/) |
+| 2023.11 | **Drive-WM** — Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving | `Video` | `Plan` | [Paper](https://arxiv.org/abs/2311.17918) · [Project](https://drive-wm.github.io/) |
 | 2023.10 | **UniSim** — Learning Interactive Real-World Simulators | `Video` | `IL` `RL` `Plan` `Policy` `Data` | [Paper](https://arxiv.org/abs/2310.06114) · [Project](https://universal-simulator.github.io/) |
 
 ## Latent Visual World Models and Control
