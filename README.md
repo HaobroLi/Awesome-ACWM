@@ -106,6 +106,7 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 
 | Date | Work | Rep. | Uses | Links |
 | --- | --- | --- | --- | --- |
+| 2026.10 | **FlockWorld** — Toward Population-Scale Multi-Agent Video World Models through Artificial Life Simulation | `Video` | `Game` `Interactive` | [Paper](https://arxiv.org/abs/2610.34564) · [Code](https://github.com/wangyz1999/flockworld) |
 | 2026.07 | **ABot-World-0** — Infinite Interactive World Rollout on a Single Desktop GPU | `Video` | `Game` `Interactive` | [Paper](https://arxiv.org/abs/2607.19191) |
 | 2026.07 | **AlayaWorld** — Interactive Long-Horizon World Modeling | `Video` | `Game` `Interactive` | [Paper](https://arxiv.org/abs/2607.18367) |
 | 2026.07 | **LingBot-World 2.0 (Infinity)** — Infinite Worlds with Versatile Interactions | `Video` | `Game` `Interactive` | [Paper](https://arxiv.org/abs/2607.07534) · [Project](https://technology.robbyant.com/lingbot-world-v2) · [Code](https://github.com/Robbyant/lingbot-world-v2) |
