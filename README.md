@@ -144,6 +144,7 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 | Date | Work | Rep. | Uses | Links |
 | --- | --- | --- | --- | --- |
 | 2026.10 | **SimForcing** — Distilling Simulation Motion Priors into Real-Domain Robot World Models | `Video` | `Eval` `Data` | [Paper](https://arxiv.org/abs/2610.06598) · [Project](https://wang-xiaodong1899.github.io/SimForcing/) |
+| 2026.10 | **VeriVLA** — Adaptive Test-Time Verification for Flow-Based VLAs with Latent World Models | `Feature` | `Eval` `Plan` | [Paper](https://arxiv.org/abs/2610.21985) |
 | 2026.09 | **Pelican-Sim 1.0** — A General World Model Simulator for Embodied Intelligence | `Video` | `Eval` `IL` `Plan` `Policy` `Data` | [Paper](https://arxiv.org/abs/2609.12036) · [Project](https://zoushilong1024.github.io/Pelican-Sim1.0/) |
 | 2026.08 | **Hydra-0** — Action Flow for Generalist World Modeling and Control | `Video` | `Eval` `IL` `Plan` `Policy` `Data` | [Paper](https://arxiv.org/abs/2608.18077) · [Project](https://nvidia-isaac.github.io/video_to_data/hydra-0/) |
 | 2026.08 | **WALL-SS** — Action-conditioned world model for embodied simulation | `Video` | `Eval` `IL` `RL` `Plan` `Policy` | [Project](https://github.com/X-Square-Robot/wall-ss) |
@@ -151,6 +152,7 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 | 2026.06 | **Recurrent Generative Replay** — World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays | `Video` | `IL` `Data` | [Paper](https://arxiv.org/abs/2606.27374) |
 | 2026.06 | **WAM-RL** — World-Action Model Reinforcement Learning with Reconstruction Rewards and Online Video SFT | `Video` | `RL` `Policy` | [Paper](https://arxiv.org/abs/2606.17906) |
 | 2026.06 | **PiL-World** — A Chunk-Wise World Model for VLA Policy-in-the-Loop Evaluation | `Video` | `Eval` | [Paper](https://arxiv.org/abs/2606.05773) |
+| 2026.06 | **Foresight** — Failure Detection for Long-Horizon Robotic Manipulation with Action-Conditioned World Model Latents | `Feature` | `Eval` | [Paper](https://arxiv.org/abs/2606.23085) |
 | 2026.05 | **GE-Sim 2.0** — A Roadmap Towards Comprehensive Closed-loop Video World Simulators for Robotic Manipulation | `Video` | `Eval` `IL` `RL` `Data` | [Paper](https://arxiv.org/abs/2605.27491) · [Project](https://ge-sim-v2.github.io/) |
 | 2026.05 | **Sword** — Style-Robust World Models as Simulators via Dynamic Latent Bootstrapping for VLA Policy Post-Training | `Video` | `RL` | [Paper](https://arxiv.org/abs/2605.07288) |
 | 2026.04 | **X-WAM** — Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising | `3D/4D` `Unified` | `IL` `Plan` `Policy` | [Paper](https://arxiv.org/abs/2604.26694) · [Project](https://sharinka0715.github.io/X-WAM/) |
@@ -200,11 +202,15 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 
 | Date | Work | Rep. | Uses | Links |
 | --- | --- | --- | --- | --- |
+| 2026.09 | **Semigroup-JEPA** — Latent Dynamics Consistency for Zero-Shot Physics Generalization | `Latent` | Physics generalization and visual control | [Paper](https://arxiv.org/abs/2609.10464) · [Project](https://sg-jepa.github.io/) |
 | 2025.06 | **V-JEPA 2 / V-JEPA 2-AC** — Self-Supervised Video Models Enable Understanding, Prediction and Planning | `Feature` | Action-conditioned planning | [Paper](https://arxiv.org/abs/2506.09985) · [Project](https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/) · [Code](https://github.com/facebookresearch/vjepa2) |
+| 2025.03 | **LUMOS** — Language-Conditioned Imitation Learning with World Models | `Latent` | Language-conditioned imitation in latent imagination | [Paper](https://arxiv.org/abs/2503.10370) · [Project](https://lumos.cs.uni-freiburg.de/) |
 | 2024.11 | **DINO-WM** — World Models on Pre-trained Visual Features enable Zero-shot Planning | `Feature` | Zero-shot planning | [Paper](https://arxiv.org/abs/2411.04983) · [Project](https://dino-wm.github.io/) · [Code](https://github.com/gaoyuezhou/dino_wm) |
 | 2024.10 | **AVID** — Adapting Video Diffusion Models to World Models | `Video` | Action-conditioned diffusion | [Paper](https://arxiv.org/abs/2410.12822) · [Code](https://github.com/microsoft/causica/tree/main/research_experiments/avid) |
+| 2024.10 | **IQ-MPC** — Reward-free World Models for Online Imitation Learning | `Latent` | Online imitation learning and MPC | [Paper](https://arxiv.org/abs/2410.14081) · [Code](https://github.com/TobyLeelsz/iqmpc) |
 | 2024.06 | **Delta-IRIS** — Efficient World Models with Context-Aware Tokenization | `Token` | Visual RL | [Paper](https://arxiv.org/abs/2406.19320) · [Code](https://github.com/vmicheli/delta-iris) |
 | 2023.10 | **TD-MPC2** — Scalable, Robust World Models for Continuous Control | `Latent` | Continuous control | [Paper](https://arxiv.org/abs/2310.16828) · [Code](https://github.com/nicklashansen/tdmpc2) |
+| 2023.02 | **DITTO** — Offline Imitation Learning with World Models | `Latent` | Offline imitation via latent trajectory matching | [Paper](https://arxiv.org/abs/2302.03086) |
 | 2023.01 | **DreamerV3** — Mastering Diverse Domains through World Models | `Latent` | General RL | [Paper](https://arxiv.org/abs/2301.04104) · [Code](https://github.com/danijar/dreamerv3) |
 | 2022.09 | **IRIS** — Transformers are Sample-Efficient World Models | `Token` | Atari control | [Paper](https://arxiv.org/abs/2209.00588) · [Code](https://github.com/eloialonso/iris) |
 | 2022.06 | **MWM** — Masked World Models for Visual Control | `Latent` | Visual RL | [Paper](https://arxiv.org/abs/2206.14244) · [Code](https://github.com/younggyoseo/MWM) |
@@ -224,14 +230,17 @@ The sections are navigation aids rather than mutually exclusive theoretical cate
 
 | Date | Benchmark | Domain | Links |
 | --- | --- | --- | --- |
+| 2026.10 | **Latent Rollout Consistency (LRC)** — Multi-step latent prediction metric | Latent dynamics | [Paper](https://arxiv.org/abs/2610.37588) |
 | 2026.09 | **TriWorldBench** — A Tri-View Consistency Perspective on Embodied World Models | Embodied | [Paper](https://arxiv.org/abs/2609.26314) · [Project](https://github.com/TriWorldBench/TriWorldBench) |
 | 2026.08 | **WorldSimProbe** — Action-following evaluation for action-conditioned world models | Action-conditioned world models | [Project](https://github.com/pxxq25/WorldSimProbe) |
+| 2026.08 | **The Intervention Gap in Latent World Models** — Matched-action intervention audit | Latent dynamics | [Paper](https://arxiv.org/abs/2608.29998) |
 | 2026.06 | **WorldRoamBench** — Long-horizon stability of interactive world models | Interactive | [Paper](https://arxiv.org/abs/2606.31672) |
 | 2026.06 | **RoboTrustBench** — Trustworthiness of video world models for robotic manipulation | Embodied | [Paper](https://arxiv.org/abs/2606.01600) · [Project](https://huiqiongli.github.io/RoboTrustBench/) |
 | 2026.05 | **MiraBench** — Action-conditioned reliability in robotic world models | Embodied | [Paper](https://arxiv.org/abs/2605.29360) |
 | 2026.05 | **WBench** — Multi-turn interactive video world model evaluation | Interactive | [Paper](https://arxiv.org/abs/2605.25874) · [Project](https://meituan-longcat.github.io/WBench/) |
 | 2026.05 | **ACWM-Phys** — Generalized physical interaction in action-conditioned video world models | Embodied | [Paper](https://arxiv.org/abs/2605.08567) · [Project](https://xavihart.github.io/ACWM-Phys) · [Code](https://github.com/xavihart/ACWM-Phys-dev) |
 | 2026.05 | **iWorld-Bench** — Interactive world models with a unified action generation framework | Interactive | [Paper](https://arxiv.org/abs/2605.03941) |
+| 2026.05 | **stable-worldmodel** — Reproducible world-model and planning evaluation platform | Latent control and generalization | [Paper](https://arxiv.org/abs/2605.21800) · [Code](https://github.com/galilai-group/stable-worldmodel) |
 | 2026.04 | **WorldMark** — Unified benchmark suite for interactive video world models | Interactive | [Paper](https://arxiv.org/abs/2604.21686) |
 | 2026.04 | **RoboWM-Bench** — World models in robotic manipulation | Embodied | [Paper](https://arxiv.org/abs/2604.19092) · [Project](https://robowm-bench.github.io/RoboWM-Bench/) |
 | 2026.01 | **Wow, wo, val!** — Embodied world model evaluation Turing test | Embodied | [Paper](https://arxiv.org/abs/2601.04137) |
